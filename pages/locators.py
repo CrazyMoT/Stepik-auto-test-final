@@ -3,7 +3,8 @@ from selenium.webdriver.common.by import By
 
 class MainPageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
-
+    BASKET_LINK = (By.CSS_SELECTOR, "#default > header > div.page_inner > div > div.basket-mini.pull-right.hidden-xs > span > a")
+    BASKET_FREE = (By.CSS_SELECTOR, "#content_inner > p")
 
 class BookPageLocators():
     BASKET = (By.CSS_SELECTOR, "#add_to_basket_form > button")
